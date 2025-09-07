@@ -8,7 +8,7 @@ Building ML & DL projects — recommender systems, anomaly detection, and practi
 ## 🔭 Featured Projects
 ### Movie-Recommender
 A Streamlit-based movie recommendation system that uses preprocessed PKL files & TMDB API.  
-![Frontend Screenshot](https://github.com/karthick432/images/raw/main/frontend.png)
+![Frontend Screenshot](frontend scrennshot.png)
 **Repo:** `Movie-Recommender` • *Collaborative filtering / TF-IDF → upgrading to BERT embeddings.*
 
 ### Anomaly-detection
