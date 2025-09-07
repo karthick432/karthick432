@@ -13,10 +13,14 @@ A Streamlit-based movie recommendation system that uses preprocessed PKL files &
 **Repo:** `Movie-Recommender` • *Collaborative filtering / TF-IDF → upgrading to BERT embeddings.*
 
 ### Anomaly-detection
-Streamlit app that detects anomalies in network data (CSV upload + processing).  
+Streamlit app that detects anomalies in network data (CSV upload + processing). 
+![Anomaly Detection Screenshot 1](scrennshot1.png)
+![Anomaly Detection Screenshot 2](screenshot2.png)
 **Repo:** `Anomaly-detection` • *Data preprocessing, visualization, threshold based detection.*
 
-(Click the pinned repos above to see demo and installation steps)
+
+
+
 
 ---
 
