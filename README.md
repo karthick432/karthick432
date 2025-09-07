@@ -2,13 +2,13 @@
 **Aspiring AI/ML Engineer** • B.Tech in Artificial Intelligence & Machine Learning (2025)  
 Building ML & DL projects — recommender systems, anomaly detection, and practical apps.
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=karthick432&show_icons=true&count_private=true)](https://github.com/karthick432)
 
 ---
 
 ## 🔭 Featured Projects
 ### Movie-Recommender
 A Streamlit-based movie recommendation system that uses preprocessed PKL files & TMDB API.  
+![Frontend Screenshot](images/frontend.png)
 **Repo:** `Movie-Recommender` • *Collaborative filtering / TF-IDF → upgrading to BERT embeddings.*
 
 ### Anomaly-detection
