@@ -6,8 +6,7 @@ Building ML & DL projects — recommender systems, anomaly detection, and practi
 ---
 
 ## 🔭 Featured Projects
-### Conversational Movie Recommendation & Q&A Chatbot
-# 🎬 Conversational Movie Recommendation & Q&A Chatbot  
+## 🎬 Conversational Movie Recommendation & Q&A Chatbot  
 
 An **AI-powered chatbot** that combines **movie recommendations** with **conversational Q&A** for an engaging user experience.  
 Built with **Python** and **Streamlit**, the system integrates **LangChain memory** and the **Gemini API** for natural conversations, while leveraging **FAISS** and **BERT embeddings** for semantic search.  
@@ -39,7 +38,7 @@ This project showcases the integration of **LLMs, vector search, NLP, and extern
 
 ---
 
-### Anomaly-detection
+## Anomaly-detection
 Streamlit app that detects anomalies in network data (CSV upload + processing). 
 ![Anomaly Detection Screenshot 1](scrennshot1.png)
 ![Anomaly Detection Screenshot 2](screenshot2.png)
