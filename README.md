@@ -32,7 +32,7 @@ Built with **Python** and **Streamlit**, it integrates **LangChain memory** and 
 - 🔎 **Semantic Search** with FAISS + BERT embeddings to find contextually similar movies  
 - 💬 Dual mode: answers normal queries with Gemini API and switches to recommendation mode based on user intent  
 
-![Frontend Screenshot](frontend_screenshot.png)
+![Frontend Screenshot](frontend%20screenshot.png)
 
 **Technologies:** Python, Streamlit, LangChain, Gemini API, FAISS, BERT, TMDb API  
 
@@ -46,8 +46,8 @@ A **Streamlit app** for detecting anomalies in network data via CSV upload and p
 - ⚠️ Threshold-based anomaly detection  
 - 💻 Interactive web interface with **Streamlit**  
 
-![Anomaly Detection Screenshot 1](anomaly_screenshot1.png)
-![Anomaly Detection Screenshot 2](anomaly_screenshot2.png)
+![Anomaly Detection Screenshot 1](scrennshot1.png) 
+![Anomaly Detection Screenshot 2](screenshot2.png)
 
 **Repo:** `Anomaly-detection`  
 
