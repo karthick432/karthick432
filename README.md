@@ -11,12 +11,12 @@ An **AI-powered computer vision pipeline** that automatically detects and counts
 Uses **YOLOv8** for object detection, **DeepSORT** for tracking, and **OpenCV** for video processing. The system also generates **per-coach clips** and **representative frames** (nose-to-tail coverage).  
 
 **Key Features:**
-- 🎯 Fine-tuned YOLOv8 on a **custom dataset (~450 annotated images)** for accurate detection  
+- 🎯 Fine-tuned YOLOv8 on a **custom dataset (~650 annotated images)** for accurate detection  
 - 🧭 **Object Tracking** using DeepSORT to avoid duplicate counts  
 - 🎬 Generated **per-coach video clips** and **representative frames** for each coach  
 - ✅ Validated on multiple real train-passing videos  
 
-![Train Project Screenshot](train_screenshot.png)
+![Train annotated video](https://drive.google.com/file/d/1LKG2eSV8vwaJosLP9GvM7lWw9LPBvEjf/view?usp=sharing)
 
 **Technologies:** Python, YOLOv8, OpenCV, DeepSORT, Google Colab  
 
