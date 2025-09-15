@@ -1,70 +1,66 @@
 # Hi, I’m Karthick K 👋
 **Aspiring AI/ML Engineer** • B.Tech in Artificial Intelligence & Machine Learning (2025)  
-Building ML & DL projects — recommender systems, anomaly detection, and practical apps.
-
+Building ML & DL projects — computer vision, NLP, recommendation systems, and practical AI applications.
 
 ---
 
 ## 🔭 Featured Projects
-## 🎬 Conversational Movie Recommendation & Q&A Chatbot  
 
-An **AI-powered chatbot** that combines **movie recommendations** with **conversational Q&A** for an engaging user experience.  
-Built with **Python** and **Streamlit**, the system integrates **LangChain memory** and the **Gemini API** for natural conversations, while leveraging **FAISS** and **BERT embeddings** for semantic search.  
+### 🚆 Automatic Train Coach Detection and Counting with YOLOv8
+An **AI-powered computer vision pipeline** that automatically detects and counts train coaches and engines from side-view videos.  
+Uses **YOLOv8** for object detection, **DeepSORT** for tracking, and **OpenCV** for video processing. The system also generates **per-coach clips** and **representative frames** (nose-to-tail coverage).  
 
----
+**Key Features:**
+- 🎯 Fine-tuned YOLOv8 on a **custom dataset (~450 annotated images)** for accurate detection  
+- 🧭 **Object Tracking** using DeepSORT to avoid duplicate counts  
+- 🎬 Generated **per-coach video clips** and **representative frames** for each coach  
+- ✅ Validated on multiple real train-passing videos  
 
-## 🔑 Features  
-- 🎥 **Movie Recommendations with Posters** – Fetches movie suggestions with posters from the **TMDb API**  
-- 🧠 **Conversational Memory** – Maintains context using **LangChain memory** for smooth dialogue  
-- 🔎 **Semantic Search** – Uses **FAISS vector store + BERT embeddings** to find contextually similar movies  
-- 💬 **Dual Mode** – Handles normal questions with Gemini API and switches to recommendation mode when user input contains keywords like *recommend* or *give*
+![Train Project Screenshot](train_screenshot.png)
 
-![Frontend Screenshot](frontend%20screenshot.png)
-
----
-
-## 🛠️ Tech Stack  
-- **Python (Anaconda)**  
-- **Streamlit** (frontend)  
-- **LangChain** (memory & orchestration)  
-- **Gemini API** (LLM responses)  
-- **FAISS + BERT** (vector search & embeddings)  
-- **TMDb API** (movie data & posters)  
+**Technologies:** Python, YOLOv8, OpenCV, DeepSORT, Google Colab  
 
 ---
 
-## 🚀 Project Highlights  
-This project showcases the integration of **LLMs, vector search, NLP, and external APIs** into a single, interactive chatbot application — enabling users to **discover movies** and **ask questions conversationally** in a seamless experience.  
+### 🎬 Conversational Movie Recommendation & Q&A Chatbot
+An **AI-powered chatbot** combining **movie recommendations** with **conversational Q&A** for an engaging user experience.  
+Built with **Python** and **Streamlit**, it integrates **LangChain memory** and the **Gemini API** for natural conversations, while using **FAISS** and **BERT embeddings** for semantic search.  
+
+**Key Features:**
+- 🎥 Fetches movie recommendations with posters from **TMDb API**  
+- 🧠 Maintains context using **LangChain memory** for smooth multi-turn dialogue  
+- 🔎 **Semantic Search** with FAISS + BERT embeddings to find contextually similar movies  
+- 💬 Dual mode: answers normal queries with Gemini API and switches to recommendation mode based on user intent  
+
+![Frontend Screenshot](frontend_screenshot.png)
+
+**Technologies:** Python, Streamlit, LangChain, Gemini API, FAISS, BERT, TMDb API  
 
 ---
 
-## Anomaly-detection
-Streamlit app that detects anomalies in network data (CSV upload + processing). 
-![Anomaly Detection Screenshot 1](scrennshot1.png)
-![Anomaly Detection Screenshot 2](screenshot2.png)
-**Repo:** `Anomaly-detection` • *Data preprocessing, visualization, threshold based detection.*
+### 📊 Anomaly Detection
+A **Streamlit app** for detecting anomalies in network data via CSV upload and processing.  
 
+**Key Features:**
+- 📈 Data preprocessing and visualization  
+- ⚠️ Threshold-based anomaly detection  
+- 💻 Interactive web interface with **Streamlit**  
 
+![Anomaly Detection Screenshot 1](anomaly_screenshot1.png)
+![Anomaly Detection Screenshot 2](anomaly_screenshot2.png)
 
+**Repo:** `Anomaly-detection`  
 
-
----
-
-## 🛠️ Tech & Tools
-Python • PyTorch • Scikit-learn • Pandas • NumPy • Streamlit • Git  • TMDB API
+**Technologies:** Python, PyTorch, Scikit-learn, Pandas, NumPy, Streamlit  
 
 ---
 
 ## 📫 Contact
-- LinkedIn: https://www.linkedin.com/in/karthick2434  
-- Email: karthick24032004@gmail.com
+- LinkedIn: [https://www.linkedin.com/in/karthick2434](https://www.linkedin.com/in/karthick2434)  
+- Email: karthick24032004@gmail.com  
 
 ---
 
 ## 🔁 What I’m working on
-- Upgrading recommender from TF-IDF to BERT sentence embeddings (sentence-transformers)
-- Adding unit tests and CI for key projects
-
----
-
-If you like, I can customize this README text (add GIFs/screenshots, badges, project links).
+- Upgrading movie recommender from TF-IDF to **BERT sentence embeddings** (sentence-transformers)  
+- Adding **unit tests and CI** for key projects  
